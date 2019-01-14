@@ -1,0 +1,93 @@
+.root {
+     //-fx-background-image: url("background.jpg");
+     //-fx-background-color: FFFACA;
+     -fx-background-color: rgb(3, 93, 124);
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #562772;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    //-fx-background-color: linear-gradient(#fff7a8,#a5c956);
+    -fx-background-color: linear-gradient(dodgerblue, deepskyblue);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(deepskyblue, dodgerblue);
+}
+
+.button:pressed {
+//-fx-background-color: #fff7a8;
+-fx-background-color: dodgerblue;
+
+}
+
+.grid-peoplelist {
+//-fx-background-color: FFFACA;
+-fx-background-color: rgb(83, 56, 159);
+}
+
+.spane-peoplelist {
+//-fx-background-color: FFFACA;
+-fx-background-color: rgb(83, 56, 159);
+-fx-fit-to-width: true;
+}
+
+.label {
+    -fx-font-size: 12 px;
+    -fx-font-weight: bold;
+    //-fx-text-fill: #333333;
+    -fx-text-fill: snow;
+    //-fx-effect: dropshadow(gaussian, rgba (255,255,255, 50%) , 0, 0, 0, 1);
+}
+
+.text {
+-fx-font-family: "Century Gothic";
+-fx-fill: snow;
+}
+
+.text-nameline {
+    -fx-font-weight: bold;
+    //-fx-font-family: "Sans-serif";
+    -fx-background-color: white;
+    -fx-fill: snow;
+}
+
+.text-age {
+-fx-fill: snow;
+}
+
+.text-stat {
+//-fx-fill: black;
+-fx-fill: floralwhite;
+}
+
+.text-stat-top {
+//-fx-fill: #6111D0;
+-fx-fill: gold;
+}
+
+.text-stat-bot {
+//-fx-fill: #9A8CAD;
+-fx-fill: peru;
+}
+
+#welcome-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    //-fx-fill: #818181;
+    //-fx-fill: #efa8ff;
+    -fx-fill: snow;
+    //-fx-effect: innershadow(three-pass-box, #4a0eff, 6, 0.0, 0 ,2);
+    -fx-effect: innershadow(three-pass-box, azure, 6, 0.0, 0 ,2);
+    -fx-alignment: center;
+}
+
+#actiontarget {
+    -fx-fill: SNOW;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0,0,0,1);
+}
